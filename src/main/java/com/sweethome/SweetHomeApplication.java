@@ -8,12 +8,12 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 @SpringBootApplication
 public class SweetHomeApplication extends SpringBootServletInitializer {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SweetHomeApplication.class, args);
-	}
+	  public static void main(String[] args) {
+		  SpringApplication.run(SweetHomeApplication.class, args);
+	  }
 	
 	  @Override
-	    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-	        return application.sources(SweetHomeApplication.class);
-	    }
+	  protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		  return application.sources(SweetHomeApplication.class);
+	  }
 }
